@@ -5,7 +5,7 @@ def run_guessing_game
 
   if input == number
 
-  else 
+  else
     
   end
 
