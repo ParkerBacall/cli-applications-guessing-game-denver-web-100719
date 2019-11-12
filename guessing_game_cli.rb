@@ -3,7 +3,8 @@
 def run_guessing_game
   number = (rand(6)+1)
   input = gets.chomp
-  binding.pry
+pp number
+pp input
 
   if input == number+1
     puts "You guessed the correct number!"
