@@ -4,7 +4,11 @@ def run_guessing_game
   input = gets.chomp
 
   if input == number
+
+  else 
+    
   end
+
 
 
 if input == 'exit'
