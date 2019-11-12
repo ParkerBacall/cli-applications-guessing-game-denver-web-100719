@@ -10,7 +10,7 @@ pp input
     puts "You guessed the correct number!"
   end
 
-  if input != number
+  if input != number.to.i
     puts "Sorry! The computer guessed #{number}."
   end
 
