@@ -6,7 +6,7 @@ def run_guessing_game
 pp number
 pp input
 
-  if input == number
+  if input == number.to.i
     puts "You guessed the correct number!"
   end
 
