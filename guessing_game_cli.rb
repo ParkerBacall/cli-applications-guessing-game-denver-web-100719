@@ -3,14 +3,14 @@
 def run_guessing_game
   number = (rand(6)+1)
   input = gets.chomp
-pp "number"
+pp number
 pp input
 
-  if input == "number"
+  if input == number
     puts "You guessed the correct number!"
   end
 
-  if input != "number"
+  if input != number
     puts "Sorry! The computer guessed #{number}."
   end
 
