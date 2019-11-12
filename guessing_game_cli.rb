@@ -6,11 +6,11 @@ def run_guessing_game
 pp number
 pp input.to_i
 
-  if input == number
+  if input.to_i == number
     puts "You guessed the correct number!"
   end
 
-  if input != number
+  if input.to_i != number
     puts "Sorry! The computer guessed #{number}."
   end
 
