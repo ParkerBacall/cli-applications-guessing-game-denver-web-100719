@@ -1,7 +1,10 @@
-# Code your solution here!
+binding.pry
+
 def run_guessing_game
   number = rand(1..6)
   input = gets.chomp
+
+
 
   if input != number
     "Sorry! The computer guessed #{number}."
