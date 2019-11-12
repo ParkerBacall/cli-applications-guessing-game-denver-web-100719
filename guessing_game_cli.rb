@@ -13,8 +13,8 @@ def run_guessing_game
     puts "You guessed the correct number!"
   end
 
-if input == 'exit'
-  puts "Goodbye!"
-end
+  if input == 'exit'
+    puts "Goodbye!"
+  end
 
 end
